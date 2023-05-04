@@ -1,0 +1,39 @@
+
+<body>
+    
+
+<div class="container">
+    <div class="login">
+      <form [formGroup]="loginForm" (ngSubmit)="submit()">
+        <img width="140px" src="/assets/img/logo delivery app.png" alt="">
+        <hr>
+        <p>Login to Explore </p>
+     
+      <text-input
+      [control]="fc.email"
+      [showErrorsWhen]="isSubmitted"
+      type="email"
+      label="Email"></text-input>
+
+      <text-input
+      [control]="fc.password"
+      [showErrorsWhen]="isSubmitted"
+      type="password"
+      label="Password"></text-input>
+       
+       
+        <!-- <button type="submit" >Login</button> -->
+        <default-button text="Login"></default-button>
+
+        
+        <p class="forget">
+          New user? &nbsp;
+          <a routerLink="/register" [queryParams]="{returnUrl : returnUrl}">Register here </a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+

@@ -1,0 +1,59 @@
+/* About */
+#about .visual img,
+#app .visual img {
+  margin-right: auto;
+}
+/* End About */
+
+.visual img {
+    width: 80%;
+    height: auto;
+    display: block;
+  }
+
+  
+.section {
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    padding: 0 30px;
+  }
+  
+  .primary {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .secondary {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .tertiary {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 14px 20px;
+    background: orange;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 0;
+  }
+  
+  /* End Base */

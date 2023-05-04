@@ -1,0 +1,63 @@
+.section {
+    width: 100%;
+    padding: 40px 0;
+    padding-right: 300px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    padding: 0 30px;
+  }
+  
+  .primary {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .secondary {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .tertiary {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 14px 20px;
+    background: orange;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 0;
+  }
+  
+  /* End Base */
+
+  /* Testimonial */
+#testimonial .visual img {
+    margin-left: auto;
+  }
+  
+  .user {
+    margin-top: 30px;
+    justify-content: start;
+  }
+  
+  .user img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  /* End Testimonial */

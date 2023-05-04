@@ -1,0 +1,40 @@
+
+
+    <div id="product-landing">
+        <!--  -->
+        <header>
+        <div id="nav">
+          <div id="logo">
+            <img routerLink="/" src="/assets/img/logo delivery app.png" alt="Habitual branding logo.">
+          </div>
+          <!--  -->
+          <div class="container">
+            <nav>
+                <ul style="padding-left: 140px;">
+                    <li>
+                        <a routerLink="/cart-page">
+                            <i class="fa-solid fa-cart-shopping" style="color: #dba910;"></i> Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span>
+                        </a>
+    
+                    </li>
+                    <li *ngIf="!isAuth">
+                        <a routerLink="/login"><i class="fa-solid fa-arrow-right-to-bracket" style="color: #dba910;"></i>
+                            Login</a>
+                    </li>
+                    <li *ngIf="isAuth" class="menu-container">
+                        <a routerLink="/dashboard"><i class="fa-regular fa-circle-user" style="color: #dba910;"></i> {{user.name}}</a>
+                        <div class="menu">
+                            <a routerLink="/profile">Profile</a>
+                            <a routerLink="/order">Order</a>
+                            <a (click)="logout()">Logout</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    
+          <!--  -->
+        </div>
+
+       
